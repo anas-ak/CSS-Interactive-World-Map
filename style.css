@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  overflow: hidden;
+}
+svg {
+  width: 90vw;
+  height: 90vh;
+}
+path {
+  fill: grey;
+  cursor: pointer;
+}
+path:hover {
+  fill: blue;
+}
+
+path::hover + AE {
+	display: block;
+	color: red;
+}
